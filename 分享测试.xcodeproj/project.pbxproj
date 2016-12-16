@@ -15,6 +15,16 @@
 		5EDA96491DFFA0930034BA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA96471DFFA0930034BA6E /* LaunchScreen.storyboard */; };
 		5EDA96541DFFA0930034BA6E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA96531DFFA0930034BA6E /* ____Tests.m */; };
 		5EDA965F1DFFA0930034BA6E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA965E1DFFA0930034BA6E /* ____UITests.m */; };
+		5EDA966F1DFFC7500034BA6E /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA966D1DFFC7500034BA6E /* TencentOpenAPI.framework */; };
+		5EDA96721DFFC7F90034BA6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA96711DFFC7F90034BA6E /* Security.framework */; };
+		5EDA96741DFFC8660034BA6E /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA96731DFFC8660034BA6E /* libiconv.2.4.0.tbd */; };
+		5EDA96761DFFC8820034BA6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA96751DFFC8820034BA6E /* SystemConfiguration.framework */; };
+		5EDA96781DFFC88C0034BA6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA96771DFFC88C0034BA6E /* CoreGraphics.framework */; };
+		5EDA967A1DFFC8980034BA6E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA96791DFFC8980034BA6E /* libsqlite3.0.tbd */; };
+		5EDA967C1DFFC8A30034BA6E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA967B1DFFC8A30034BA6E /* CoreTelephony.framework */; };
+		5EDA967E1DFFC8B20034BA6E /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA967D1DFFC8B20034BA6E /* libstdc++.6.0.9.tbd */; };
+		5EDA96801DFFC8C00034BA6E /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDA967F1DFFC8C00034BA6E /* libz.1.1.3.tbd */; };
+		5EDA96821DFFC9880034BA6E /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EDA96811DFFC9880034BA6E /* TencentOpenApi_IOS_Bundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		5EDA965A1DFFA0930034BA6E /* 分享测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "分享测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDA965E1DFFA0930034BA6E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		5EDA96601DFFA0930034BA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDA966D1DFFC7500034BA6E /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "分享测试/TencentOpenAPI.framework"; sourceTree = "<group>"; };
+		5EDA96711DFFC7F90034BA6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5EDA96731DFFC8660034BA6E /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		5EDA96751DFFC8820034BA6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5EDA96771DFFC88C0034BA6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EDA96791DFFC8980034BA6E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5EDA967B1DFFC8A30034BA6E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5EDA967D1DFFC8B20034BA6E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		5EDA967F1DFFC8C00034BA6E /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		5EDA96811DFFC9880034BA6E /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = "分享测试/TencentOpenApi_IOS_Bundle.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDA96801DFFC8C00034BA6E /* libz.1.1.3.tbd in Frameworks */,
+				5EDA967E1DFFC8B20034BA6E /* libstdc++.6.0.9.tbd in Frameworks */,
+				5EDA967C1DFFC8A30034BA6E /* CoreTelephony.framework in Frameworks */,
+				5EDA967A1DFFC8980034BA6E /* libsqlite3.0.tbd in Frameworks */,
+				5EDA96781DFFC88C0034BA6E /* CoreGraphics.framework in Frameworks */,
+				5EDA96761DFFC8820034BA6E /* SystemConfiguration.framework in Frameworks */,
+				5EDA96741DFFC8660034BA6E /* libiconv.2.4.0.tbd in Frameworks */,
+				5EDA96721DFFC7F90034BA6E /* Security.framework in Frameworks */,
+				5EDA966F1DFFC7500034BA6E /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +110,12 @@
 		5EDA962D1DFFA0930034BA6E = {
 			isa = PBXGroup;
 			children = (
+				5EDA96811DFFC9880034BA6E /* TencentOpenApi_IOS_Bundle.bundle */,
 				5EDA96381DFFA0930034BA6E /* 分享测试 */,
 				5EDA96521DFFA0930034BA6E /* 分享测试Tests */,
 				5EDA965D1DFFA0930034BA6E /* 分享测试UITests */,
 				5EDA96371DFFA0930034BA6E /* Products */,
+				5EDA96701DFFC7F90034BA6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +169,22 @@
 				5EDA96601DFFA0930034BA6E /* Info.plist */,
 			);
 			path = "分享测试UITests";
+			sourceTree = "<group>";
+		};
+		5EDA96701DFFC7F90034BA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EDA966D1DFFC7500034BA6E /* TencentOpenAPI.framework */,
+				5EDA967F1DFFC8C00034BA6E /* libz.1.1.3.tbd */,
+				5EDA967D1DFFC8B20034BA6E /* libstdc++.6.0.9.tbd */,
+				5EDA967B1DFFC8A30034BA6E /* CoreTelephony.framework */,
+				5EDA96791DFFC8980034BA6E /* libsqlite3.0.tbd */,
+				5EDA96771DFFC88C0034BA6E /* CoreGraphics.framework */,
+				5EDA96751DFFC8820034BA6E /* SystemConfiguration.framework */,
+				5EDA96731DFFC8660034BA6E /* libiconv.2.4.0.tbd */,
+				5EDA96711DFFC7F90034BA6E /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDA96821DFFC9880034BA6E /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				5EDA96491DFFA0930034BA6E /* LaunchScreen.storyboard in Resources */,
 				5EDA96461DFFA0930034BA6E /* Assets.xcassets in Resources */,
 				5EDA96441DFFA0930034BA6E /* Main.storyboard in Resources */,
@@ -354,6 +402,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,6 +422,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fobjc-arc";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -401,6 +451,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -413,6 +464,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-fobjc-arc";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -422,9 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/分享测试",
+				);
 				INFOPLIST_FILE = "分享测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifeng.czShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +489,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/分享测试",
+				);
 				INFOPLIST_FILE = "分享测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ifeng.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifeng.czShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
