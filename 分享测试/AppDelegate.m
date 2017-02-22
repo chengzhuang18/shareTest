@@ -26,6 +26,7 @@
         [_tencentOAuth authorize:permissions inSafari:NO];
 
     });
+    //////
     return YES;
 }
 
